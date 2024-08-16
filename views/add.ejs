@@ -1,0 +1,12 @@
+<h2>添加新配置</h2>
+<form action="/add" method="POST">
+    <div>
+        <label for="name">配置名称:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+        <label for="content">JSON 内容:</label>
+        <textarea id="content" name="content" rows="10" required></textarea>
+    </div>
+    <button type="submit">添加配置</button>
+</form>

@@ -1,0 +1,22 @@
+<h2>配置列表</h2>
+<% if (locals.message) { %>
+    <p class="message"><%= message %></p>
+<% } %>
+<table>
+    <thead>
+        <tr>
+            <th>名称</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% configs.forEach(function(config) { %>
+            <tr>
+                <td><%= config.name %></td>
+                <td>
+                    <a href="/api/config/<%= config.id %>" target="_blank">查看 JSON</a>
+                </td>
+            </tr>
+        <% }); %>
+    </tbody>
+</table>

@@ -1,0 +1,66 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav a {
+    margin-right: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.message {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
